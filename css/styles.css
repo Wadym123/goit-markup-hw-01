@@ -84,4 +84,5 @@ ul {
 }
 .footer a {
   color: var(--primary-bg-color);
+  text-decoration: none;
 }
