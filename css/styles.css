@@ -20,6 +20,9 @@
 ul {
   list-style: none;
 }
+.logo {
+  text-decoration: none;
+}
 .logo .accent {
   color: var(--accent-text-color);
 }
@@ -27,6 +30,7 @@ ul {
 /* site nav */
 .site-nav .link {
   color: var(--primary-text-color);
+  text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
