@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Portfolio</title>
 </head>
 
-<body>
+<body class="page">
     <header>
-        <nav>
-            <a href="/">WebStudio</a>
+        <nav class="site-nav list">
+            <a href="/" class="logo">WebStudio</a>
             <ul>
                 <li>
                     <a href="./index.html" class="link">Студия</a>
@@ -24,7 +25,7 @@
                 </li>
             </ul>
         </nav>
-        <ul>
+        <ul class="auth-nav list">
             <li>
                 <a href="">info@devstudio.com</a>
             </li>
@@ -35,25 +36,23 @@
     </header>
     <main>
         <section>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="">Все</a>
-                    </li>
-                    <li>
-                        <a href="">Веь-сайты</a>
-                    </li>
-                    <li>
-                        <a href="">Приложение</a>
-                    </li>
-                    <li>
-                        <a href="">Дизайн</a>
-                    </li>
-                    <li>
-                        <a href="">Маркетинг</a>
-                    </li>
-                </ul>
-            </nav>
+            <ul class="element">
+                <li>
+                    <button type="button" class="part">Все</button>
+                </li>
+                <li>
+                    <button type="button" class="part">Веь-сайты</button>
+                </li>
+                <li>
+                    <button type="button" class="part">Приложение</button>
+                </li>
+                <li>
+                    <button type="button" class="part">Дизайн</button>
+                </li>
+                <li>
+                    <button type="button" class="part">Маркетинг</button>
+                </li>
+            </ul>
             <ul>
                 <li>
                     <img src="./images/tehnopark.jpeg" alt="Технопарк" width="370" />
@@ -98,13 +97,16 @@
                 <li>
                     <img src="./images/business.jpeg" alt="Growing Business" width="370" />
                     <h3>Growing Business</h3>
-                    <p>риложение</p>
+                    <p>Приложение</p>
                 </li>
             </ul>
         </section>
     </main>
-    <footer>
-        <a href="/">WebStudio</a>
+    <footer class="footer">
+        <a href="/" class="logo">
+            <span class="accent">Web</span>
+            Studio
+        </a>
         <address>
             <ul>
                 <li>

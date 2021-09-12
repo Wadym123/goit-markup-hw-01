@@ -13,14 +13,14 @@
 }
 
 .page {
-  background-color: #e5e5e5;
+  background-color: #ffffff;
   color: var(--primary-text-color);
 }
 
 ul {
   list-style: none;
 }
-.logo {
+.logo .accent {
   color: var(--accent-text-color);
 }
 
@@ -28,12 +28,10 @@ ul {
 .site-nav .link {
   color: var(--primary-text-color);
 }
-
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-text-color);
 }
-
 .site-nav .link.current {
   color: var(--accent-text-color);
 }
@@ -41,7 +39,6 @@ ul {
 .auth-nav a {
   color: var(--primary-text-color);
 }
-
 .auth-nav a:hover {
   color: var(--accent-text-color);
 }
@@ -50,7 +47,6 @@ ul {
   background-color: #2f303a;
   color: var(--primary-bg-color);
 }
-
 .button {
   background-color: #2196f3;
   color: var(--primary-bg-color);
@@ -59,10 +55,29 @@ ul {
 .feature-list .title {
   color: var(--primary-text-color);
 }
-
 .feature-list .link {
   color: var(--title-text-color);
 }
+
 .section-title {
   color: var(--primary-text-color);
+}
+
+.section-command {
+  background-color: #f5f4fa;
+}
+
+.element .part {
+  color: var(--primary-text-color);
+}
+.element .part:hover {
+  background-color: #2196f3;
+  color: var(--primary-bg-color);
+}
+
+.footer {
+  background-color: #2f303a;
+}
+.footer a {
+  color: var(--primary-bg-color);
 }
